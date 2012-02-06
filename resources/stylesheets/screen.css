@@ -188,3 +188,9 @@ h1, h2, h3, h4 {
   color: #000;
   font-weight: bold;
 }
+strong {
+  font-weight: bold;
+}
+em {
+  font-style: italic;
+}
