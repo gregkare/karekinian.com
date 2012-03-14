@@ -156,10 +156,10 @@ body {
   margin-top: 4em;
 }
 #avatar img {
-  -moz-transform: scale(0.95);
-  -o-transform: scale(0.95);
-  -webkit-transform: scale(0.95);
-  transform: scale(0.95);
+  -moz-transform: scale(0.90);
+  -o-transform: scale(0.90);
+  -webkit-transform: scale(0.90);
+  transform: scale(0.90);
   -moz-transition: -moz-transform 0.2s ease-out;
   -o-transition: -o-transform 0.2s ease-out;
   -webkit-transition: -webkit-transform 0.2s ease-out;
@@ -169,10 +169,10 @@ body {
   -border-radius: 100px;
 }
 #avatar :hover {
-  -moz-transform: scale(1.05);
-  -o-transform: scale(1.05);
-  -webkit-transform: scale(1.05);
-  transform: scale(1.05);
+  -moz-transform: scale(1);
+  -o-transform: scale(1);
+  -webkit-transform: scale(1);
+  transform: scale(1);
 }
 #content {
   width: 18em;
