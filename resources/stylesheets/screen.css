@@ -210,8 +210,7 @@ em {
   font-size: 0.6em;
 }
 /* TypeKit */
-.wf-loading .blog-title,
-.wf-loading .post-title {
+.wf-loading {
   /* Hide the blog title and post titles while web fonts are loading */
   visibility: hidden;
 }
