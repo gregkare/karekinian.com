@@ -209,3 +209,10 @@ em {
 .lanyrd-splat[rel=me] {
   font-size: 0.6em;
 }
+/* TypeKit */
+.wf-loading .blog-title,
+.wf-loading .post-title {
+  /* Hide the blog title and post titles while web fonts are loading */
+  visibility: hidden;
+}
+
