@@ -3,16 +3,45 @@
  * some of the reset HTML elements we will never need here (i.e., dfn, samp, etc).
  * --------------------------------------------------------------------------------------------------------------- */
 
-
 /*  ERIC MEYER RESET */
 /*  -------------------------------------------------- */
 
-html, body { margin: 0; padding: 0; }
-h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, cite, code, del, dfn, em, img, q, s, samp, small, strike, strong, sub, sup, tt, var, dd, dl, dt, li, ol, ul, fieldset, form, label, legend, button, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; font-weight: normal; font-style: normal; font-size: 100%; line-height: 1; font-family: inherit; }
-table { border-collapse: collapse; border-spacing: 0; }
-ol, ul { list-style: none; }
-q:before, q:after, blockquote:before, blockquote:after { content: ""; }
+html, body {
+  margin: 0;
+  padding: 0;
+}
 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, cite, code, del, dfn, em, img, q, s, samp, small, strike, strong, sub, sup, tt, var, dd, dl, dt, li, ol, ul, fieldset, form, label, legend, button, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 100%;
+  line-height: 1;
+  font-family: inherit;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+q {
+  &:before, &:after {
+    content: "";
+  }
+}
+
+blockquote {
+  &:before, &:after {
+    content: "";
+  }
+}
 
 /*  Normalize.css */
 /*  Pulling in select resets form the normalize.css project */
@@ -21,44 +50,40 @@ q:before, q:after, blockquote:before, blockquote:after { content: ""; }
 /*  Display in IE6-9 and FF3 */
 /*  ------------------------- */
 /*  Source: http:github.com/necolas/normalize.css */
+
 html {
   overflow-y: scroll;
   font-size: 100%;
   -webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
 }
+
 /*  Focus states */
-a:focus {
-  outline: thin dotted;
+
+a {
+  &:focus {
+    outline: thin dotted;
+  }
+  &:hover, &:active {
+    outline: 0;
+  }
 }
+
 /*  Hover & Active */
-a:hover,
-a:active {
-  outline: 0;
-}
 
 /*  Display in IE6-9 and FF3 */
 /*  ------------------------- */
 /*  Source: http:github.com/necolas/normalize.css */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-nav,
-section {
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
   display: block;
 }
 
 /*  Display block in IE6-9 and FF3 */
 /*  ------------------------- */
 /*  Source: http:github.com/necolas/normalize.css */
-audio,
-canvas,
-video {
+
+audio, canvas, video {
   display: inline-block;
   *display: inline;
   *zoom: 1;
@@ -67,23 +92,30 @@ video {
 /*  Prevents modern browsers from displaying 'audio' without controls */
 /*  ------------------------- */
 /*  Source: http:github.com/necolas/normalize.css */
+
 audio:not([controls]) {
-    display: none;
+  display: none;
 }
 
 /*  Prevents sub and sup affecting line-height in all browsers */
 /*  ------------------------- */
 /*  Source: http:github.com/necolas/normalize.css */
-sub,
-sup {
+
+sub {
   font-size: 75%;
   line-height: 0;
   position: relative;
   vertical-align: baseline;
 }
+
 sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
   top: -0.5em;
 }
+
 sub {
   bottom: -0.25em;
 }
@@ -91,9 +123,10 @@ sub {
 /*  Img border in a's and image quality */
 /*  ------------------------- */
 /*  Source: http:github.com/necolas/normalize.css */
+
 img {
-    border: 0;
-    -ms-interpolation-mode: bicubic;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
 }
 
 /*  Forms */
@@ -101,47 +134,61 @@ img {
 /*  Source: http:github.com/necolas/normalize.css */
 
 /*  Font size in all browsers, margin changes, misc consistency */
-button,
-input,
-select,
-textarea {
+
+button, input, select, textarea {
   font-size: 100%;
   margin: 0;
   vertical-align: baseline;
   *vertical-align: middle;
 }
-button,
-input {
-  line-height: normal; /* FF3/4 have !important on line-height in UA stylesheet */
-  *overflow: visible; /* Inner spacing ie IE6/7 */
+
+button, input {
+  line-height: normal;
+  /* FF3/4 have !important on line-height in UA stylesheet */
+  *overflow: visible;
+  /* Inner spacing ie IE6/7 */
 }
-button::-moz-focus-inner,
-input::-moz-focus-inner { /* Inner padding and border oddities in FF3/4 */
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+  /* Inner padding and border oddities in FF3/4 */
   border: 0;
   padding: 0;
 }
-button,
-input[type="button"],
-input[type="reset"],
-input[type="submit"] {
-  cursor: pointer; /* Cursors on all buttons applied consistently */
-  -webkit-appearance: button /* Style clicable inputs in iOS */
+
+button {
+  cursor: pointer;
+  /* Cursors on all buttons applied consistently */
+  -webkit-appearance: button;
 }
-input[type="search"] { /* Appearance in Safari/Chrome */
-  -webkit-appearance: textfield;
-  -webkit-box-sizing: content-box;
-     -moz-box-sizing: content-box;
-          box-sizing: content-box;
+
+input {
+  &[type="button"], &[type="reset"], &[type="submit"] {
+    cursor: pointer;
+    /* Cursors on all buttons applied consistently */
+    -webkit-appearance: button;
+  }
+  &[type="search"] {
+    /* Appearance in Safari/Chrome */
+    -webkit-appearance: textfield;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    &::-webkit-search-decoration {
+      -webkit-appearance: none;
+      /* Inner-padding issues in Chrome OSX, Safari 5 */
+    }
+  }
 }
-input[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none; /* Inner-padding issues in Chrome OSX, Safari 5 */
-}
+
 textarea {
-  overflow: auto; /* Remove vertical scrollbar in IE6-9 */
-  vertical-align: top; /* Readability and alignment cross-browser */
+  overflow: auto;
+  /* Remove vertical scrollbar in IE6-9 */
+  vertical-align: top;
+  /* Readability and alignment cross-browser */
 }
 
 /* karekinian.com styles */
+
 body {
   font-family: "adobe-garamond-pro-1","adobe-garamond-pro-2", "Adobe Garamond Pro", "Garamond", "Times New Roman", times, serif;
   background: #f5f5f5;
@@ -149,70 +196,86 @@ body {
   font-size: 200%;
   margin-top: 1em;
 }
+
 p, li {
   line-height: 1.5;
 }
+
 .header {
   text-align: center;
   line-height: 1;
   margin-top: 2em;
 }
-.avatar img {
-  -moz-transform: scale(0.90);
-  -o-transform: scale(0.90);
-  -webkit-transform: scale(0.90);
-  transform: scale(0.90);
-  -moz-transition: -moz-transform 0.2s ease-out;
-  -o-transition: -o-transform 0.2s ease-out;
-  -webkit-transition: -webkit-transform 0.2s ease-out;
-  transition: transform 0.2s ease-out;
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
-  -border-radius: 100px;
-  width: 100px;
+
+.avatar {
+  img {
+    -moz-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+    -moz-transition: -moz-transform 0.2s ease-out;
+    -o-transition: -o-transform 0.2s ease-out;
+    -webkit-transition: -webkit-transform 0.2s ease-out;
+    transition: transform 0.2s ease-out;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -border-radius: 100px;
+    width: 100px;
+  }
+  :hover {
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
 }
-.avatar :hover {
-  -moz-transform: scale(1);
-  -o-transform: scale(1);
-  -webkit-transform: scale(1);
-  transform: scale(1);
-}
+
 .content {
   width: 18em;
   margin: 0 auto;
   margin-bottom: 2em;
 }
+
 ul {
   list-style: none;
   padding: 0;
 }
-a:link, a:visited {
-  font-weight: bold;
-  color: #990000;
+
+a {
+  &:link, &:visited {
+    font-weight: bold;
+    color: #990000;
+  }
+  &:hover {
+    color: #330000;
+  }
 }
-a:hover {
-  color: #330000;
-}
+
 h1, h2, h3, h4 {
   margin: 1.5em 0 0.5em 0;
   color: #000;
   font-weight: bold;
 }
+
 h1 {
   font-size: 1.2em;
 }
+
 strong {
   font-weight: bold;
 }
+
 em {
   font-style: italic;
 }
+
 .lanyrd-splat[rel=me] {
   font-size: 0.6em;
 }
+
 /* TypeKit */
+
 .wf-loading {
   /* Hide the blog title and post titles while web fonts are loading */
   visibility: hidden;
 }
-
