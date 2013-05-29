@@ -9,7 +9,7 @@ GEM
     haml (4.0.2)
       tilt
     kramdown (0.13.8)
-    nanoc (3.6.3)
+    nanoc (3.6.4)
       cri (~> 2.3)
     rack (1.5.2)
     sass (3.2.7)
