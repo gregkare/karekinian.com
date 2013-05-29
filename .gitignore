@@ -1,4 +1,4 @@
 /tmp/*
 /crash.log
 /.sass-cache/*
-/output/*
+/output
