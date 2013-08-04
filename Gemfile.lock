@@ -20,7 +20,7 @@ GEM
       nanoc (>= 3.6.3)
     haml (4.0.2)
       tilt
-    kramdown (0.13.8)
+    kramdown (1.0.2)
     listen (1.1.1)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
@@ -51,6 +51,6 @@ DEPENDENCIES
   adsf
   guard-nanoc
   haml (~> 4.0.2)
-  kramdown
-  nanoc (~> 3.6.3)
+  kramdown (~> 1.0.2)
+  nanoc (~> 3.6.4)
   sass (~> 3.2.7)
