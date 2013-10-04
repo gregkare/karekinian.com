@@ -27,7 +27,7 @@ a {
     margin: 10px 0 20px 0; }
     .sidebar .name #fname {
       padding-left: 1px;
-      font-size: 23px;
+      font-size: 34px;
       letter-spacing: 5px;
       color: black; }
     .sidebar .name #lname {
@@ -50,7 +50,7 @@ a {
       padding: 3px 0;
       color: black;
       font-weight: bold;
-      font-size: 12px;
+      font-size: 16px;
       display: block; }
       .sidebar .sections a:hover {
         color: #227ce8; }
@@ -106,7 +106,7 @@ a {
     padding-bottom: 5px;
     margin-bottom: 10px; }
   .content p {
-    font-size: 16px;
+    font-size: 18px;
     margin-top: 0;
     margin-bottom: 1.2em;
     line-height: 1.7em; }
@@ -164,7 +164,7 @@ a {
       margin: 0;
       padding: 0; }
     .content .listing li {
-      font-size: 13px;
+      font-size: 16px;
       list-style: none;
       padding: 5px 3px;
       margin: 0;
