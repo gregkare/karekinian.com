@@ -1,0 +1,57 @@
+---
+layout: post
+title: "Culture"
+date: 2013-02-21T09:57:07+01:00
+comments: false
+external-url: 
+categories: culture startup
+---
+
+At least three insightful articles about culture were posted yesterday. I think you should read them.
+
+## [When culture turns into policy][1]
+
+> A fine line exists between spelling out company culture and inadvertently
+> engraving it as policy.
+>
+> -- Mig Reyes
+
+
+## [What Your Culture Really Says][2]
+
+> Culture is not about the furniture in your office. It is not about how much
+> time you have to spend on feel-good projects. It is not about catered food,
+> expensive social outings, internal chat tools, your ability to travel all
+> over the world, or your never-ending self-congratulation.
+>
+> -- shanley
+
+
+## [Culture][3]
+
+> In dysfunctional organizations, or, frankly, in organizations where people
+> are unhappy, "intervention" from other sources (often human resources) is
+> required because employees don't actually like the culture, nor do they like
+> their daily working lives. Entire HR teams are needed to try to convey
+> supposed organizational culture (often devised ad hoc) to new employees
+> because natural internal cultural diffusion has failed. At this point, it's
+> often too late to authentically fix a culture.
+>
+> -- Ted Nyman
+
+
+## [You don’t create a culture (from 2008)][4]
+
+It's linked at the end of Mig Reyes' article but it's worth a read as well.
+
+> You don’t create a culture. Culture happens. It’s the by-product of
+> consistent behavior. If you encourage people to share, and you give them the
+> freedom to share, then sharing will be built into your culture. If you
+> reward trust then trust will be built into your culture.
+>
+> -- Jason Fried
+
+[1]: http://37signals.com/svn/posts/3450
+[2]: http://blog.prettylittlestatemachine.com/blog/2013/02/20/what-your-culture-really-says/
+[3]: http://ted.io/culture.html
+[4]: http://37signals.com/svn/posts/1022-you-dont-create-a-culture

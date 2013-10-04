@@ -1,0 +1,12 @@
+markdown: redcarpet
+pygments: true
+permalink: /blog/:year/:month/:day/:title/
+destination: public
+source: source
+name: Greg Karékinian
+url: http://blog.karekinian.com
+description: Insert witty subtitle here.
+twitter: gkarekinian
+github: gkarekinian
+category_dir: blog/categories
+category_title_prefix: "Category: "

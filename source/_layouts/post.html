@@ -1,0 +1,26 @@
+---
+layout: layout
+---
+
+<section class="content">
+  <h2>
+    {% if page.external-url %}
+      <a href="{{ page.external-url }}">Link: {{ page.title }}</a>
+    {% else %}
+      <a href="{{ page.url }}">{{ page.title }}</a>
+    {% endif %}
+  </h1>
+
+  <section class="byline">
+    {{ page.date | date: "%B %e, %Y" }}
+  </section>
+
+  {{ content }}
+
+  <section class="categories">
+    {% if page.categories %}
+      Posted in categories: {{ page.categories | category_links }}
+    {% endif %}
+  </section>
+
+</section>
