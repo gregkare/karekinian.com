@@ -52,7 +52,6 @@ ERROR:  While executing gem ... (Gem::DependencyError)
 
 Let's check [RubyGems.org](https://rubygems.org) to see which version of
 `net-ssh-gateway` doesn't require `>= 2.6.5`:
-
 [1.1.0](https://rubygems.org/gems/net-ssh-gateway/versions/1.1.0)
 
 ```
