@@ -10,9 +10,6 @@
   text-shadow: none;
   color: #d0d0d0;
 }
-.highlight code {
-  float: left;
-}
 .highlight:hover {
   overflow: auto;
 }
