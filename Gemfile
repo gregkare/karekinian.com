@@ -1,4 +1,4 @@
 source 'https://rubygems.org/'
 
-gem 'jekyll', '~> 1.4.2'
+gem 'jekyll', '~> 2.0'
 gem 'stringex'
