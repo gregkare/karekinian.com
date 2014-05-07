@@ -1,12 +1,13 @@
 markdown: redcarpet
-highlighter: pygments
 permalink: /blog/:year/:month/:day/:title/
 destination: public
 source: source
 name: Greg Karékinian
-url: http://karekinian.com
+title: Greg Karékinian
+email: greg [AT] karekinian [DOT] com
+url: https://karekinian.com
+baseurl: ""
 description: Insert witty subtitle here.
-twitter: gregkare
-github: gregkare
+username: gregkare
 category_dir: blog/categories
 category_title_prefix: "Category: "

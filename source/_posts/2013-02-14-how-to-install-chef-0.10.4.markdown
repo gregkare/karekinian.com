@@ -29,7 +29,9 @@ _pretty_ hard to install, as you will see.
 ```
 $ gem install chef --version 0.10.4
 ERROR:  While executing gem ... (Gem::DependencyError)
-Unable to resolve dependencies: chef requires net-ssh (~> 2.1.3); net-ssh-multi requires net-ssh (>= 2.1.4); net-ssh-gateway requires net-ssh (>= 2.6.5)
+Unable to resolve dependencies: chef requires net-ssh (~> 2.1.3);
+net-ssh-multi requires net-ssh (>= 2.1.4);
+net-ssh-gateway requires net-ssh (>= 2.6.5)
 ```
 
 Oops.
