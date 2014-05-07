@@ -1,0 +1,68 @@
+https://keybase.io/gregkare
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://karekinian.com
+  * I am gregkare (https://keybase.io/gregkare) on keybase.
+  * I have a public key with fingerprint 4C17 4C66 D094 9B90 6724  C82F 70FA 5AC4 7E7A AA97
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "4c174c66d0949b906724c82f70fa5ac47e7aaa97",
+            "host": "keybase.io",
+            "key_id": "70FA5AC47E7AAA97",
+            "uid": "845dc9d02a551b54228b4e39d15d4f00",
+            "username": "gregkare"
+        },
+        "service": {
+            "hostname": "karekinian.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1397131794,
+    "expire_in": 157680000,
+    "prev": "fb50479e4fc6bbb71a2069b574859842e59720a2d030278bfadf631d594bcaef",
+    "seqno": 12,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG/MacGPG2 v2.0.22 (Darwin)
+Comment: GPGTools - http://gpgtools.org
+
+owGbwMvMwMQ4V/Hzoayw3B7G0we+JDEEu3WJVysl5adUKllVK2Wngqm0zLz01KKC
+osy8EiUrJZNkQ3OTZDOzFANLE8skSwMzcyOTZAujNHODtETTxGQT81TzxMRES3Ml
+HaWM/GKQDqAxSYnFqXqZ+UAxICc+MwUoam7g5mjq6Gxi7mru6OgIVl8KlrAwMU1J
+tkwxMEo0NTVMMjUxMrJIMkk1tkwxNE0xSTMwACksTi3KS8xNBapOL0pNz04sSlWq
+1VECipZlJqeC3AyyGqoCJJudmZeZmKeXnJ8L1F1QlF+Sn5yfA5TLKCkpsAJpLaks
+AKktT02Kh5oSn5SZlwL0OVBDWWpRcWZ+npKVIVBlckkmyFhDY0tzQ2NDc0sTHaXU
+ioLMotT4TJAKU3MzCwMgAFmTWgY0Mi3J1MDE3DLVJC3ZLCkpydww0cjAzDLJ1NzE
+wtTSwsQo1dTS3Mgg0SjFwNjAyNwiKS0xJc3M2DDF1NIkKTkxNU0J5K/CvHyg2UZA
+dyamA80szkzPSywpBfm6k0mGhYGRiYGNlQkUeQxcnAKwKE25xv+/ZHfGm8evjJVm
+LVaTblLcyvUoqX3KjNsb9x1/OiVVaeW0bUUPnK8vW5rGt27Ouahzex5sUfuySvio
+uHeQwPZWCY+SFdv2OlmfWnhDSfn6vrJT198HTRT/Fe9du0Bja97F/v47mxl59NZ/
+qP95/a3Htud1XHrLm59tVtgq423xPuj1RZGG3pzO7hNu/3s+Xm4OUCjdvWalaEWd
+m4jXqUMbzuVuu8GtOelRRHrP+znp+wOa4k+zLJ6eb/Tb6dy7lkbpk7Mi5gRYFGS8
+Tmc+zfOT8TXX3plKZptbTj5anirPbREqJNTKalFdo9RVLLtQz8lJatcn05Bilx4Z
+Ie82novRsS9TbGI33b6TtzfDKmz9L8ay6YrN54q/nY7rDekusnJcEhyZ1vNSeP4t
+g0iP0B/93G5TsjVX7tpWqfXtxtRd27OuT/1ZsGSjcu7f9NUlb6X2e1wNuO/f4FvC
+v/MdT2uQPdvLPV9dPjtHWqhLr7zzoDHO/fvB3DyGnRt3XK2sz5rA6Mq44ISJ2/+L
+pzbXRtzfoLBM4a7ALbMVdgEmCmu/nfqjHtmbVvArr6BDfU+AT4/fD6bSzU1SJ3h4
+ut4/Mp14qGX5d5GpjxTm9q9gnxUfafJkkrCagM9/NfHH/reuV8cs05Lafjg34llQ
+mai6mNob0dIX6Wp39HrkO77Z7+QIKbrxZd1pq+8OB56lt3SqrzTJkfKNVgph7o57
+vxEA
+=GhNm
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/gregkare
