@@ -26,7 +26,7 @@ We're installing Chef version 0.10.4 as part of a bootstrap script, but I'm
 going to break it down and do it by hand, because that version happens to be
 _pretty_ hard to install, as you will see.
 
-```
+```bash
 $ gem install chef --version 0.10.4
 ERROR:  While executing gem ... (Gem::DependencyError)
 Unable to resolve dependencies: chef requires net-ssh (~> 2.1.3);
@@ -36,7 +36,7 @@ net-ssh-gateway requires net-ssh (>= 2.6.5)
 
 Oops.
 
-```
+```bash
 $ gem install net-ssh --version 2.1.4
 Fetching: net-ssh-2.1.4.gem (100%)
 Successfully installed net-ssh-2.1.4
@@ -46,7 +46,7 @@ Successfully installed net-ssh-2.1.4
 Alright, resolving the dependency issue by hand, it doesn't seem too
 complicated.
 
-```
+```bash
 $ gem install chef --version 0.10.4
 ERROR:  While executing gem ... (Gem::DependencyError)
     Unable to resolve dependencies: net-ssh-gateway requires net-ssh (>= 2.6.5)
@@ -56,7 +56,7 @@ Let's check [RubyGems.org](https://rubygems.org) to see which version of
 `net-ssh-gateway` doesn't require `>= 2.6.5`:
 [1.1.0](https://rubygems.org/gems/net-ssh-gateway/versions/1.1.0)
 
-```
+```bash
 $ gem install net-ssh-gateway --version 1.1.0
 Fetching: net-ssh-gateway-1.1.0.gem (100%)
 Successfully installed net-ssh-gateway-1.1.0
@@ -65,7 +65,7 @@ Successfully installed net-ssh-gateway-1.1.0
 
 Now let's try installing Chef again:
 
-```
+```bash
 $ gem install chef --version 0.10.4
 Fetching: mixlib-config-1.1.2.gem (100%)
 Fetching: mixlib-cli-1.3.0.gem (100%)
@@ -119,7 +119,7 @@ Oh wait, if we try to use that version of chef it won't work, because it
 depends on any version of moneta, and moneta 0.7 is a complete rewrite. This is
 something you just _have to know somehow_.
 
-```
+```bash
 $ gem uninstall moneta
 
 You have requested to uninstall the gem:
@@ -149,7 +149,7 @@ gem install chef --no-rdoc --no-ri --verbose <%= bootstrap_version_string %>
 
 ### Our fixed version
 
-```erb
+```bash
 gem install moneta --version 0.6.0 --no-rdoc --no-ri --verbose
 gem install net-ssh-gateway --version 1.1.0 --no-rdoc --no-ri --verbose
 gem install net-ssh --version 2.1.4 --no-rdoc --no-ri --verbose
