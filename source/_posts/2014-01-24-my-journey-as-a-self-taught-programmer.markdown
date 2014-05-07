@@ -198,7 +198,7 @@ Last year I made the decision to switch to system administration and
 infrastructure automation as a consultant and co-founder of Green Alto. I
 gained a lot of experience, and now I feel it's time for me to go back to
 software development. I'm currently learning Ember.js & C (before I learn
-Rust) and I will look for a new job in February.
+Rust).
 
 
 ## We made it. You can too!
