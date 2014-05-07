@@ -1,4 +1,4 @@
-markdown: redcarpet
+markdown: HTMLPipeline
 permalink: /blog/:year/:month/:day/:title/
 destination: public
 source: source
@@ -11,3 +11,14 @@ description: Insert witty subtitle here.
 username: gregkare
 category_dir: blog/categories
 category_title_prefix: "Category: "
+gems:
+  - jekyll-html-pipeline
+html_pipeline:
+  filters:
+    - "markdownfilter"
+    - "emojifilter"
+    - "syntaxhighlightfilter"
+
+  context:
+    asset_root: "/images"
+    gfm: false
