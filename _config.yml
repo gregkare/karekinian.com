@@ -13,6 +13,7 @@ category_dir: blog/categories
 category_title_prefix: "Category: "
 gems:
   - jekyll-html-pipeline
+  - jekyll-sitemap
 html_pipeline:
   filters:
     - "markdownfilter"
