@@ -3,7 +3,7 @@ https://keybase.io/gregkare
 
 I hereby claim:
 
-  * I am an admin of http://karekinian.com
+  * I am an admin of https://karekinian.com
   * I am gregkare (https://keybase.io/gregkare) on keybase.
   * I have a public key with fingerprint 4C17 4C66 D094 9B90 6724  C82F 70FA 5AC4 7E7A AA97
 
@@ -20,15 +20,15 @@ To claim this, I am signing this object:
         },
         "service": {
             "hostname": "karekinian.com",
-            "protocol": "http:"
+            "protocol": "https:"
         },
         "type": "web_service_binding",
         "version": 1
     },
-    "ctime": 1397131794,
+    "ctime": 1400234699,
     "expire_in": 157680000,
-    "prev": "fb50479e4fc6bbb71a2069b574859842e59720a2d030278bfadf631d594bcaef",
-    "seqno": 12,
+    "prev": "4f1cd84fd47d3580a51083ad3f5d692175f199c9c400c95e20abb4293ee9ba2c",
+    "seqno": 13,
     "tag": "signature"
 }
 
@@ -38,28 +38,28 @@ with the aforementioned key, yielding the PGP signature:
 Version: GnuPG/MacGPG2 v2.0.22 (Darwin)
 Comment: GPGTools - http://gpgtools.org
 
-owGbwMvMwMQ4V/Hzoayw3B7G0we+JDEEu3WJVysl5adUKllVK2Wngqm0zLz01KKC
-osy8EiUrJZNkQ3OTZDOzFANLE8skSwMzcyOTZAujNHODtETTxGQT81TzxMRES3Ml
-HaWM/GKQDqAxSYnFqXqZ+UAxICc+MwUoam7g5mjq6Gxi7mru6OgIVl8KlrAwMU1J
-tkwxMEo0NTVMMjUxMrJIMkk1tkwxNE0xSTMwACksTi3KS8xNBapOL0pNz04sSlWq
-1VECipZlJqeC3AyyGqoCJJudmZeZmKeXnJ8L1F1QlF+Sn5yfA5TLKCkpsAJpLaks
-AKktT02Kh5oSn5SZlwL0OVBDWWpRcWZ+npKVIVBlckkmyFhDY0tzQ2NDc0sTHaXU
-ioLMotT4TJAKU3MzCwMgAFmTWgY0Mi3J1MDE3DLVJC3ZLCkpydww0cjAzDLJ1NzE
-wtTSwsQo1dTS3Mgg0SjFwNjAyNwiKS0xJc3M2DDF1NIkKTkxNU0J5K/CvHyg2UZA
-dyamA80szkzPSywpBfm6k0mGhYGRiYGNlQkUeQxcnAKwKE25xv+/ZHfGm8evjJVm
-LVaTblLcyvUoqX3KjNsb9x1/OiVVaeW0bUUPnK8vW5rGt27Ouahzex5sUfuySvio
-uHeQwPZWCY+SFdv2OlmfWnhDSfn6vrJT198HTRT/Fe9du0Bja97F/v47mxl59NZ/
-qP95/a3Htud1XHrLm59tVtgq423xPuj1RZGG3pzO7hNu/3s+Xm4OUCjdvWalaEWd
-m4jXqUMbzuVuu8GtOelRRHrP+znp+wOa4k+zLJ6eb/Tb6dy7lkbpk7Mi5gRYFGS8
-Tmc+zfOT8TXX3plKZptbTj5anirPbREqJNTKalFdo9RVLLtQz8lJatcn05Bilx4Z
-Ie82novRsS9TbGI33b6TtzfDKmz9L8ay6YrN54q/nY7rDekusnJcEhyZ1vNSeP4t
-g0iP0B/93G5TsjVX7tpWqfXtxtRd27OuT/1ZsGSjcu7f9NUlb6X2e1wNuO/f4FvC
-v/MdT2uQPdvLPV9dPjtHWqhLr7zzoDHO/fvB3DyGnRt3XK2sz5rA6Mq44ISJ2/+L
-pzbXRtzfoLBM4a7ALbMVdgEmCmu/nfqjHtmbVvArr6BDfU+AT4/fD6bSzU1SJ3h4
-ut4/Mp14qGX5d5GpjxTm9q9gnxUfafJkkrCagM9/NfHH/reuV8cs05Lafjg34llQ
-mai6mNob0dIX6Wp39HrkO77Z7+QIKbrxZd1pq+8OB56lt3SqrzTJkfKNVgph7o57
-vxEA
-=GhNm
+owGbwMvMwMQ4V/Hzoayw3B7G0we+JjEElz66UK2UlJ9SqWRVrZSdCqbSMvPSU4sK
+ijLzSpSslEySDc1Nks3MUgwsTSyTLA3MzI1Mki2M0swN0hJNE5NNzFPNExMTLc2V
+dJQy8otBOoDGJCUWp+pl5gPFgJz4zBSgqLmBm6Opo7OJuau5o6MjWH0pWMLCxDQl
+2TLFwCjR1NQwydTEyMgiySTV2DLF0DTFJM3AAKSwOLUoLzE3Fag6vSg1PTuxKFWp
+VkcJKFqWmZwKcjPIaqgKkGx2Zl5mYp5ecn4uUHdBUX5JfnJ+DlAuo6SkoNgKpLek
+sgCkuDw1KR5qTHxSZl4K0OtAHWWpRcWZ+XlKVoZAlcklmSBzDU0MDIyMTcwsLXWU
+UisKMotS4zNBKkzNzSwMgABkT2oZKMDSDJNTLEzSUkzMU4xNLQwSTQ0NLIwTU4zT
+TFPMLI0MzU3TDC0tky2TgQYmW5qmGhkkJiWZGFkap6ZaJiUaJSuBPFaYlw802xjo
+zsR0oJnFmel5iSWlIG93MsmwMDAyMbCxMoFij4GLUwAWpxM3CjDMDr9fP/3Lpfpz
+5nW7Fq9QUz6lO6nY6QOnIqOt6NJZrzrdPVnvTbz8adb+n+efvutwN7Y6+9fSf7np
+vcuP158R5VZLKD/hZr7pSteyCJudB6I/Gt6TtLUQyQxO3WrMw80prL309y2Fn6v+
+6ReVL+Stfj5RJtVxf967GU+57z9LOHXgQ5Tsv8jtiloayTvTQo8cfWV96qDD69Xp
+Pf94nry34tv8wuusambPspNqc2viapdt6rFKWB3cd4ZJPYTF7Wu2Pve/51YqDIel
+VkSmNyodMpx9edM2/3x3E3/dk+36m89fahOu3tClcl3afU6ohNekSWa691SknOVf
+Oy32Y4y8p6y7jP+l2B2h50fd5YS9zDca2i81Slj5tX757/NuAV+EJ8x4NrcgXsf8
+5r3j3zJPbNy+2Zjh2ppPt2xZ7pV8ULl8h4X70Y1T8mfXrEj9dK0qPdgs6qEqm/zk
+2NDkcH3fyJs32ydeUs77UfWDZaU567nShnfxfN1iqzZfNny9wEtiHuPfovMWMa7V
+b8PSL02//2xRmoFGmJ/PD/kvR34pTrBIu5i9sWqS5eKt34UVJhpp71wxTSYi5teT
+qZL3Fyo/CLlZ/uz08coXKzlDEguemO01upTmqOhg7qvWLMfOfmK6uOmSgm31ST5Z
+nLeOrLWPkI63mlRw/u1WTTf3S3xMWw3Wal1l+VhxSFc3a0FI8pNL6jFn87d6qi25
+YrMcAA==
+=HWAy
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
