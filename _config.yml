@@ -17,7 +17,6 @@ gems:
 html_pipeline:
   filters:
     - "markdownfilter"
-    - "emojifilter"
     - "syntaxhighlightfilter"
 
   context:
