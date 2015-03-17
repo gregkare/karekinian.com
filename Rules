@@ -27,8 +27,10 @@ end
 end
 
 compile '*' do
-  if ['css', 'js', 'txt'].include? item[:extension]
+  if ['js', 'txt'].include? item[:extension]
     # don’t filter
+  elsif item[:extension] == 'css'
+    filter :rainpress
   elsif item[:extension] == 'haml'
     filter :haml
     layout 'default'
