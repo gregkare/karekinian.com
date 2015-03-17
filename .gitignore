@@ -1,4 +1,6 @@
-/public/
+/output/
 /bin/
-/vendor/gems/
+/tmp/
 /.bundle/
+/vendor/
+/crash.log

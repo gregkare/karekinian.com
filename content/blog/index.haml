@@ -1,0 +1,12 @@
+---
+layout: default
+title: "Blog"
+---
+
+%section.content
+  %h1 Blog
+  %ul.posts
+    - sorted_articles.each do |post|
+      %li
+        %span.post-date= post[:created_at]
+        = link_to post[:title], post.path, class: 'post-link'

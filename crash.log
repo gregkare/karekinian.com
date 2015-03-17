@@ -1,0 +1,310 @@
+Crashlog created at 2015-03-17 01:03:44 +0100
+
+===== MESSAGE:
+
+NoMethodError: undefined method `[]' for #<Nanoc::Site:0x007fd1199ae650>
+
+===== COMPILATION STACK:
+
+  - [item]   /_posts/2012-12-17-mark-imbriaco-on-continuous-deployment/ (rep default)
+
+===== STACK TRACE:
+
+  0. layout /_head/:4:in `block in render'
+  1. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/haml-4.0.6/lib/haml/engine.rb:129:in `eval'
+  2. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/haml-4.0.6/lib/haml/engine.rb:129:in `render'
+  3. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/nanoc-3.7.5/lib/nanoc/filters/haml.rb:22:in `run'
+  4. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/nanoc-3.7.5/lib/nanoc/base/compilation/filter.rb:117:in `setup_and_run'
+  5. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/nanoc-3.7.5/lib/nanoc/helpers/rendering.rb:118:in `render'
+  6. layout /default/:4:in `block in render'
+  7. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/haml-4.0.6/lib/haml/engine.rb:129:in `eval'
+  8. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/haml-4.0.6/lib/haml/engine.rb:129:in `render'
+  9. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/nanoc-3.7.5/lib/nanoc/filters/haml.rb:22:in `run'
+  10. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/nanoc-3.7.5/lib/nanoc/base/compilation/filter.rb:117:in `setup_and_run'
+  11. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/nanoc-3.7.5/lib/nanoc/helpers/rendering.rb:118:in `render'
+  12. layout /post/:2:in `block in render'
+  13. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/haml-4.0.6/lib/haml/engine.rb:129:in `eval'
+  14. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/haml-4.0.6/lib/haml/engine.rb:129:in `render'
+  15. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/nanoc-3.7.5/lib/nanoc/filters/haml.rb:22:in `run'
+  16. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/nanoc-3.7.5/lib/nanoc/base/compilation/filter.rb:117:in `setup_and_run'
+  17. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/nanoc-3.7.5/lib/nanoc/base/result_data/item_rep.rb:398:in `layout'
+  18. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/nanoc-3.7.5/lib/nanoc/base/compilation/item_rep_proxy.rb:67:in `layout'
+  19. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/nanoc-3.7.5/lib/nanoc/base/compilation/rule_context.rb:72:in `layout'
+  20. /Users/kare/code/gregkare/karekinian.com-nanoc/Rules:20:in `block in parse'
+  21. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/nanoc-3.7.5/lib/nanoc/base/compilation/rule.rb:68:in `instance_eval'
+  22. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/nanoc-3.7.5/lib/nanoc/base/compilation/rule.rb:68:in `apply_to'
+  23. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/nanoc-3.7.5/lib/nanoc/base/compilation/compiler.rb:385:in `compile_rep'
+  24. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/nanoc-3.7.5/lib/nanoc/base/compilation/compiler.rb:341:in `block in compile_reps'
+  25. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/nanoc-3.7.5/lib/nanoc/base/compilation/compiler.rb:334:in `loop'
+  26. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/nanoc-3.7.5/lib/nanoc/base/compilation/compiler.rb:334:in `compile_reps'
+  27. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/nanoc-3.7.5/lib/nanoc/base/compilation/compiler.rb:87:in `run'
+  28. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/nanoc-3.7.5/lib/nanoc/base/source_data/site.rb:57:in `compile'
+  29. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/nanoc-3.7.5/lib/nanoc/cli/commands/compile.rb:383:in `block in run'
+  30. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/nanoc-3.7.5/lib/nanoc/cli/commands/compile.rb:425:in `run_listeners_while'
+  31. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/nanoc-3.7.5/lib/nanoc/cli/commands/compile.rb:382:in `run'
+  32. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/nanoc-3.7.5/lib/nanoc/cli/command_runner.rb:12:in `block in call'
+  33. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/nanoc-3.7.5/lib/nanoc/cli/error_handler.rb:72:in `handle_while'
+  34. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/nanoc-3.7.5/lib/nanoc/cli/error_handler.rb:24:in `handle_while'
+  35. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/nanoc-3.7.5/lib/nanoc/cli/command_runner.rb:11:in `call'
+  36. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/cri-2.6.1/lib/cri/command_dsl.rb:223:in `block in runner'
+  37. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/cri-2.6.1/lib/cri/command.rb:298:in `call'
+  38. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/cri-2.6.1/lib/cri/command.rb:298:in `run_this'
+  39. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/cri-2.6.1/lib/cri/command.rb:251:in `run'
+  40. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/nanoc-3.7.5/lib/nanoc/cli/commands/nanoc.rb:39:in `block in define'
+  41. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/cri-2.6.1/lib/cri/command.rb:298:in `call'
+  42. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/cri-2.6.1/lib/cri/command.rb:298:in `run_this'
+  43. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/cri-2.6.1/lib/cri/command.rb:251:in `run'
+  44. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/nanoc-3.7.5/lib/nanoc/cli.rb:58:in `block in run'
+  45. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/nanoc-3.7.5/lib/nanoc/cli/error_handler.rb:72:in `handle_while'
+  46. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/nanoc-3.7.5/lib/nanoc/cli/error_handler.rb:24:in `handle_while'
+  47. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/nanoc-3.7.5/lib/nanoc/cli.rb:56:in `run'
+  48. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/nanoc-3.7.5/bin/nanoc:25:in `<top (required)>'
+  49. ./bin/nanoc:16:in `load'
+
+===== VERSION INFORMATION:
+
+nanoc 3.7.5 © 2007-2015 Denis Defreyne.
+Running ruby 2.2.1 (2015-02-26) on x86_64-darwin13 with RubyGems 2.4.5.
+
+===== SYSTEM INFORMATION:
+
+Darwin eleven.local 13.4.0 Darwin Kernel Version 13.4.0: Wed Dec 17 19:05:52 PST 2014; root:xnu-2422.115.10~1/RELEASE_X86_64 x86_64
+
+===== INSTALLED GEMS:
+
+  adsf 1.2.0
+  builder 3.2.2
+  bundler 1.8.5
+  celluloid 0.16.0
+  coderay 1.1.0
+  colored 1.2
+  cri 2.6.1
+  ffi 1.9.8
+  formatador 0.2.5
+  guard 2.12.5
+  guard-nanoc 1.0.3
+  haml 4.0.6
+  hitimes 1.2.2
+  kramdown 1.6.0
+  listen 2.9.0
+  lumberjack 1.0.9
+  method_source 0.8.2
+  mini_portile 0.6.2
+  nanoc 3.7.5
+  nenv 0.2.0
+  nokogiri 1.6.6.2
+  notiffany 0.0.6
+  posix-spawn 0.3.10
+  pry 0.10.1
+  pygments.rb 0.6.2
+  rack 1.6.0
+  rb-fsevent 0.9.4
+  rb-inotify 0.9.5
+  redcarpet 3.2.2
+  rouge 1.8.0
+  shellany 0.0.1
+  slop 3.6.0
+  thor 0.19.1
+  tilt 2.0.1
+  timers 4.0.1
+  yajl-ruby 1.2.1
+
+===== ENVIRONMENT:
+
+Apple_PubSub_Socket_Render => "/tmp/launch-Ijpaf0/Render"
+BRIGHTBOX_5APPS_CLIENTID => "cli-kjcut"
+BRIGHTBOX_5APPS_SECRET_KEY => "m0dlol81rtyarrg"
+BUNDLE_BIN_PATH => "/Users/kare/.gem/ruby/2.2.1/gems/bundler-1.8.5/bin/bundle"
+BUNDLE_GEMFILE => "/Users/kare/code/gregkare/karekinian.com-nanoc/Gemfile"
+BUNDLE_ORIG_MANPATH => "/Users/kare/.nvm/v0.10.33/share/man:/usr/share/man:/usr/local/share/man:/opt/X11/share/man:/usr/local/MacGPG2/share/man:/Applications/Xcode.app/Contents/Developer/usr/share/man:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/share/man"
+CLICOLOR => "1"
+DISPLAY => "/tmp/launch-wDAAZb/org.macosforge.xquartz:0"
+DOCKER_CERT_PATH => "/Users/kare/.boot2docker/certs/boot2docker-vm"
+DOCKER_HOST => "tcp://192.168.59.103:2376"
+DOCKER_TLS_VERIFY => "1"
+EDITOR => "vim"
+GEM_HOME => "/Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0"
+GEM_PATH => ""
+GEM_ROOT => "/Users/kare/.rubies/ruby-2.2.1/lib/ruby/gems/2.2.0"
+GIT_PROMPT_EXECUTABLE => "haskell"
+GREP_OPTIONS => "--color=auto"
+HISTCONTROL => "erasedups"
+HISTFILE => "/Users/kare/.history"
+HISTSIZE => "10000"
+HOME => "/Users/kare"
+ITERM_PROFILE => "Default"
+ITERM_SESSION_ID => "w0t0p0"
+LC_ALL => "en_US.UTF-8"
+LC_CTYPE => "en_US.UTF-8"
+LOGNAME => "kare"
+MANPATH => "/Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/kramdown-1.6.0/man:/Users/kare/.nvm/v0.10.33/share/man:/usr/share/man:/usr/local/share/man:/opt/X11/share/man:/usr/local/MacGPG2/share/man:/Applications/Xcode.app/Contents/Developer/usr/share/man:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/share/man"
+NVM_BIN => "/Users/kare/.nvm/v0.10.33/bin"
+NVM_DIR => "/Users/kare/.nvm"
+NVM_IOJS_ORG_MIRROR => "https://iojs.org/dist"
+NVM_IOJS_ORG_VERSION_LISTING => "https://iojs.org/dist/index.tab"
+NVM_NODEJS_ORG_MIRROR => "https://nodejs.org/dist"
+NVM_PATH => "/Users/kare/.nvm/v0.10.33/lib/node"
+OLDPWD => "/Users/kare/code/gregkare/karekinian.com-nanoc/output"
+OPSCODE_USER => "gkarekinian"
+PATH => "/Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/bin:/Users/kare/.gem/ruby/2.2.1/bin:/Users/kare/.rubies/ruby-2.2.1/lib/ruby/gems/2.2.0/bin:/Users/kare/.rubies/ruby-2.2.1/bin:/Users/kare/.nvm/v0.10.33/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/MacGPG2/bin:~/bin"
+PROMPT => "%{$fg[blue]%}%~%{$reset_color%}$(git_super_status) $ "
+PWD => "/Users/kare/code/gregkare/karekinian.com-nanoc"
+RUBYLIB => "/Users/kare/.gem/ruby/2.2.1/gems/bundler-1.8.5/lib"
+RUBYOPT => "-rbundler/setup "
+RUBY_ENGINE => "ruby"
+RUBY_ROOT => "/Users/kare/.rubies/ruby-2.2.1"
+RUBY_VERSION => "2.2.1"
+SAVEHIST => "10000"
+SHELL => "/bin/zsh"
+SHLVL => "2"
+SSH_AUTH_SOCK => "/tmp/launch-AHuGcx/Listeners"
+TERM => "screen-256color"
+TERM_PROGRAM => "iTerm.app"
+TMPDIR => "/var/folders/cn/p686zyf17g54ybl225k24p980000gn/T/"
+TMUX => "/private/var/folders/cn/p686zyf17g54ybl225k24p980000gn/T/tmux-501/default,1213,0"
+TMUX_PANE => "%2"
+USER => "kare"
+_ => "/Users/kare/code/gregkare/karekinian.com-nanoc/./bin/nanoc"
+_ORIGINAL_GEM_PATH => "/Users/kare/.gem/ruby/2.2.1:/Users/kare/.rubies/ruby-2.2.1/lib/ruby/gems/2.2.0"
+__CF_USER_TEXT_ENCODING => "0x1F5:0:0"
+__CHECKFIX1436934 => "1"
+__GIT_PROMPT_DIR => "/Users/kare/.zsh/zsh-git-prompt"
+
+===== GEMFILE.LOCK:
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    adsf (1.2.0)
+      rack (>= 1.0.0)
+    builder (3.2.2)
+    celluloid (0.16.0)
+      timers (~> 4.0.0)
+    coderay (1.1.0)
+    colored (1.2)
+    cri (2.6.1)
+      colored (~> 1.2)
+    ffi (1.9.8)
+    formatador (0.2.5)
+    guard (2.12.5)
+      formatador (>= 0.2.4)
+      listen (~> 2.7)
+      lumberjack (~> 1.0)
+      nenv (~> 0.1)
+      notiffany (~> 0.0)
+      pry (>= 0.9.12)
+      shellany (~> 0.0)
+      thor (>= 0.18.1)
+    guard-nanoc (1.0.3)
+      guard (~> 2.8)
+      nanoc (~> 3.6)
+    haml (4.0.6)
+      tilt
+    hitimes (1.2.2)
+    kramdown (1.6.0)
+    listen (2.9.0)
+      celluloid (>= 0.15.2)
+      rb-fsevent (>= 0.9.3)
+      rb-inotify (>= 0.9)
+    lumberjack (1.0.9)
+    method_source (0.8.2)
+    mini_portile (0.6.2)
+    nanoc (3.7.5)
+      cri (~> 2.3)
+    nenv (0.2.0)
+    nokogiri (1.6.6.2)
+      mini_portile (~> 0.6.0)
+    notiffany (0.0.6)
+      nenv (~> 0.1)
+      shellany (~> 0.0)
+    posix-spawn (0.3.10)
+    pry (0.10.1)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    pygments.rb (0.6.2)
+      posix-spawn (~> 0.3.6)
+      yajl-ruby (~> 1.2.0)
+    rack (1.6.0)
+    rb-fsevent (0.9.4)
+    rb-inotify (0.9.5)
+      ffi (>= 0.5.0)
+    redcarpet (3.2.2)
+    rouge (1.8.0)
+    shellany (0.0.1)
+    slop (3.6.0)
+    thor (0.19.1)
+    tilt (2.0.1)
+    timers (4.0.1)
+      hitimes
+    yajl-ruby (1.2.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  adsf
+  builder
+  guard-nanoc
+  haml
+  kramdown
+  nanoc
+  nokogiri
+  pygments.rb
+  redcarpet
+  rouge
+
+===== LOAD PATHS:
+
+  0. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/nanoc-3.7.5/lib
+  1. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/rouge-1.8.0/lib
+  2. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/extensions/x86_64-darwin-13/2.2.0-static/redcarpet-3.2.2
+  3. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/redcarpet-3.2.2/lib
+  4. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/pygments.rb-0.6.2/lib
+  5. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/extensions/x86_64-darwin-13/2.2.0-static/yajl-ruby-1.2.1
+  6. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/yajl-ruby-1.2.1/lib
+  7. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/extensions/x86_64-darwin-13/2.2.0-static/posix-spawn-0.3.10
+  8. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/posix-spawn-0.3.10/lib
+  9. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/extensions/x86_64-darwin-13/2.2.0-static/nokogiri-1.6.6.2
+  10. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/nokogiri-1.6.6.2/lib
+  11. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/mini_portile-0.6.2/lib
+  12. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/kramdown-1.6.0/lib
+  13. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/haml-4.0.6/lib
+  14. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/tilt-2.0.1/lib
+  15. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/guard-nanoc-1.0.3/lib
+  16. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/nanoc-3.7.5/lib
+  17. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/guard-2.12.5/lib
+  18. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/thor-0.19.1/lib
+  19. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/pry-0.10.1/lib
+  20. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/slop-3.6.0/lib
+  21. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/method_source-0.8.2/lib
+  22. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/notiffany-0.0.6/lib
+  23. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/shellany-0.0.1/lib
+  24. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/nenv-0.2.0/lib
+  25. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/lumberjack-1.0.9/lib
+  26. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/listen-2.9.0/lib
+  27. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/rb-inotify-0.9.5/lib
+  28. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/rb-fsevent-0.9.4/lib
+  29. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/formatador-0.2.5/lib
+  30. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/extensions/x86_64-darwin-13/2.2.0-static/ffi-1.9.8
+  31. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/ffi-1.9.8/lib
+  32. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/cri-2.6.1/lib
+  33. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/colored-1.2/lib
+  34. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/coderay-1.1.0/lib
+  35. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/celluloid-0.16.0/lib
+  36. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/timers-4.0.1/lib
+  37. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/extensions/x86_64-darwin-13/2.2.0-static/hitimes-1.2.2
+  38. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/hitimes-1.2.2/lib
+  39. /Users/kare/.gem/ruby/2.2.1/gems/bundler-1.8.5/lib/gems/bundler-1.8.5/lib
+  40. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/builder-3.2.2/lib
+  41. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/adsf-1.2.0/lib
+  42. /Users/kare/code/gregkare/karekinian.com-nanoc/vendor/gems/ruby/2.2.0/gems/rack-1.6.0/lib
+  43. /Users/kare/.gem/ruby/2.2.1/gems/bundler-1.8.5/lib
+  44. /Users/kare/.rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0
+  45. /Users/kare/.rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/x86_64-darwin13
+  46. /Users/kare/.rubies/ruby-2.2.1/lib/ruby/site_ruby
+  47. /Users/kare/.rubies/ruby-2.2.1/lib/ruby/vendor_ruby/2.2.0
+  48. /Users/kare/.rubies/ruby-2.2.1/lib/ruby/vendor_ruby/2.2.0/x86_64-darwin13
+  49. /Users/kare/.rubies/ruby-2.2.1/lib/ruby/vendor_ruby
+  50. /Users/kare/.rubies/ruby-2.2.1/lib/ruby/2.2.0
+  51. /Users/kare/.rubies/ruby-2.2.1/lib/ruby/2.2.0/x86_64-darwin13

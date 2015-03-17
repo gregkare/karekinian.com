@@ -1,0 +1,8 @@
+%body
+  - render 'default' do
+    .post
+      %header.post-header
+        %h1= item[:title]
+        %p.meta= item[:created_at]
+      %article.post-content
+        = yield
