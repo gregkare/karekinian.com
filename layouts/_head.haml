@@ -1,7 +1,7 @@
 %head
-  %meta{charset: "utf-8"}/
-  %meta{content: "IE=edge", "http-equiv" => "X-UA-Compatible"}/
-  %title= [item[:title], site.config[:title]].join(' - ')
-  %meta{content: "width=device-width", name: "viewport"}/
-  %link{href: "#{url_for(item)}", rel: "canonical"}/
-  %link{href: "#{@items['/css/main/'].path}", rel: "stylesheet"}/
+  %meta{charset: "utf-8"}
+  %meta{content: "IE=edge", "http-equiv" => "X-UA-Compatible"}
+  %title= [item[:title], config[:title]].join(' - ')
+  %meta{content: "width=device-width", name: "viewport"}
+  %link{href: "#{url_for(item)}", rel: "canonical"}
+  %link{href: "#{@items['/css/main.css'].path}", rel: "stylesheet"}

@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'nanoc'
+gem 'nanoc',       '~> 4.0.0b2'
 gem 'adsf'
 gem 'guard-nanoc'
 gem 'builder'
