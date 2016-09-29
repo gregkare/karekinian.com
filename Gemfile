@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'nanoc',       '~> 4.1'
+gem 'nanoc',       '~> 4.3'
 gem 'adsf'
 gem 'builder'
 gem 'nokogiri'

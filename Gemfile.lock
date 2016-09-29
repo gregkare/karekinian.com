@@ -13,14 +13,16 @@ GEM
     hamster (3.0.0)
       concurrent-ruby (~> 1.0)
     mini_portile2 (2.0.0)
-    nanoc (4.2.3)
+    nanoc (4.3.3)
       cri (~> 2.3)
       hamster (~> 3.0)
+      ref (~> 2.0)
     nokogiri (1.6.7.2)
       mini_portile2 (~> 2.0.0.rc2)
     rack (1.6.4)
     rainpress (1.0)
     redcarpet (3.3.4)
+    ref (2.0.0)
     rouge (1.10.1)
     tilt (2.0.4)
 
@@ -31,11 +33,11 @@ DEPENDENCIES
   adsf
   builder
   haml
-  nanoc (~> 4.1)
+  nanoc (~> 4.3)
   nokogiri
   rainpress
   redcarpet
   rouge
 
 BUNDLED WITH
-   1.12.3
+   1.13.1
