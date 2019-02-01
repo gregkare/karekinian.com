@@ -4,5 +4,6 @@
   %title= [item[:title], config[:title]].join(' - ')
   %meta{name: "generator", content: "Nanoc #{Nanoc::VERSION}"}
   %meta{content: "width=device-width", name: "viewport"}
+  %meta{"http-equiv" => "Content-Security-Policy", content: "default-src 'self'; style-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none';"}
   %link{href: "#{url_for(item)}", rel: "canonical"}
   %link{href: "#{@items['/css/main.css'].path}", rel: "stylesheet"}
