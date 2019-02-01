@@ -37,6 +37,10 @@ route '/_posts/*' do
   "/blog/#{y}/#{m}/#{d}/#{slug}/index.html"
 end
 
+route '/404.*' do
+  '/404.html'
+end
+
 route '/**/*.{html,md,haml}' do
   if item.identifier =~ '**/index.*'
     item.identifier.without_ext + '.html'
@@ -49,4 +53,4 @@ route '/**/*' do
   item.identifier.to_s
 end
 
-layout '/**/*', :haml, filter: :html5, ugly: true
+layout '/**/*', :haml
