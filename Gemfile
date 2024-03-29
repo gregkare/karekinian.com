@@ -1,10 +1,11 @@
 source 'https://rubygems.org'
 
-gem 'nanoc'
+gem 'nanoc', '~> 4.12.0'
+gem 'nanoc-live'
 gem 'adsf'
 gem 'builder'
 gem 'nokogiri'
 gem 'rouge'
 gem 'redcarpet'
-gem 'haml'
+gem 'haml', '~> 5.2'
 gem 'rainpress'
