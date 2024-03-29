@@ -74,9 +74,9 @@ checks:
     exclude: []
 
 base_url: https://karekinian.com
-title: Greg Karékinian
-author_name: Greg Karékinian
+title: Greg Karekinian
+author_name: Greg Karekinian
 author_uri: https://karekinian.com
 email: greg [AT] karekinian [DOT] com
-twitter_username: gregkare
 github_username: gregkare
+mastodon_username: "@greg@kosmos.social"
