@@ -1,8 +1,8 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.8.6)
-      public_suffix (>= 2.0.2, < 6.0)
+    addressable (2.8.7)
+      public_suffix (>= 2.0.2, < 7.0)
     adsf (1.4.7)
       rack (>= 1.0.0, < 4.0.0)
       rackup (~> 2.1)
@@ -39,26 +39,26 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.10)
     memo_wise (1.8.0)
     method_source (1.0.0)
-    nanoc (4.12.20)
+    nanoc (4.13.0)
       addressable (~> 2.5)
       colored (~> 1.2)
       nanoc-checking (~> 1.0, >= 1.0.2)
-      nanoc-cli (= 4.12.20)
-      nanoc-core (= 4.12.20)
+      nanoc-cli (= 4.13.0)
+      nanoc-core (= 4.13.0)
       nanoc-deploying (~> 1.0)
       parallel (~> 1.12)
       tty-command (~> 0.8)
       tty-which (~> 0.4)
-    nanoc-checking (1.0.3)
+    nanoc-checking (1.0.5)
       nanoc-cli (~> 4.12, >= 4.12.5)
       nanoc-core (~> 4.12, >= 4.12.5)
-    nanoc-cli (4.12.20)
+    nanoc-cli (4.13.0)
       cri (~> 2.15)
       diff-lcs (~> 1.3)
-      nanoc-core (= 4.12.20)
+      nanoc-core (= 4.13.0)
       pry
       zeitwerk (~> 2.1)
-    nanoc-core (4.12.20)
+    nanoc-core (4.13.0)
       base64 (~> 0.2)
       concurrent-ruby (~> 1.1)
       ddmetrics (~> 1.0)
@@ -81,7 +81,7 @@ GEM
       nanoc-core (~> 4.11, >= 4.11.14)
     nokogiri (1.14.2-x86_64-darwin)
       racc (~> 1.4)
-    parallel (1.24.0)
+    parallel (1.25.1)
     pastel (0.8.0)
       tty-color (~> 0.5)
     pry (0.14.2)
@@ -89,7 +89,7 @@ GEM
       method_source (~> 1.0)
     psych (5.1.2)
       stringio
-    public_suffix (5.0.4)
+    public_suffix (6.0.0)
     racc (1.6.2)
     rack (3.0.7)
     rack-livereload (0.5.1)
@@ -127,7 +127,7 @@ DEPENDENCIES
   adsf
   builder
   haml (~> 5.2)
-  nanoc (~> 4.12.0)
+  nanoc (~> 4.13.0)
   nanoc-live
   nokogiri
   rainpress
