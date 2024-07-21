@@ -7,5 +7,5 @@ gem 'builder'
 gem 'nokogiri'
 gem 'rouge'
 gem 'redcarpet'
-gem 'haml', '~> 5.2'
+gem 'haml', '~> 5.2' # Nanoc doesn't play nice with 6.0
 gem 'rainpress'
