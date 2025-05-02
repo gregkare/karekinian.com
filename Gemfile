@@ -1,11 +1,11 @@
 source 'https://rubygems.org'
 
-gem 'nanoc', '~> 4.13.0'
-gem 'nanoc-live'
 gem 'adsf'
 gem 'builder'
+gem 'haml'
+gem 'nanoc', '~> 4.13.5'
+gem 'nanoc-live'
 gem 'nokogiri'
-gem 'rouge'
-gem 'redcarpet'
-gem 'haml', '~> 5.2' # Nanoc doesn't play nice with 6.0
 gem 'rainpress'
+gem 'redcarpet'
+gem 'rouge'
