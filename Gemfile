@@ -1,11 +1,11 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem 'adsf'
-gem 'builder'
-gem 'haml'
-gem 'nanoc'
-gem 'nanoc-live'
-gem 'nokogiri'
-gem 'rainpress'
-gem 'redcarpet'
-gem 'rouge'
+gem "adsf"
+gem "builder"
+gem "haml"
+gem "nanoc"
+gem "nanoc-live"
+gem "nokogiri"
+gem "rainpress"
+gem "redcarpet"
+gem "rouge"
