@@ -1,9 +1,9 @@
 !!!
 %html
-  = render '/_head.haml'
+  != render '/_head.haml'
   %body
-    = render '/_header.haml'
+    != render '/_header.haml'
     .page-content
       .wrap
-        = yield
-    = render '/_footer.haml'
+        != yield
+    != render '/_footer.haml'
